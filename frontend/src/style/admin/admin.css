@@ -1,0 +1,356 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+  outline: 3px solid #d3d3d3;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+  box-shadow: inset 0 0 5px #d3d3d3;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+.admin-mainboard{
+  display: flex;
+  flex-wrap:wrap !important;
+  justify-content: space-between;
+}
+.mobileNavbar{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: 3px 5px 14px #00000026;
+
+}
+
+.navbar-container {
+  min-width: 208px;
+  max-width: 208px;
+  height: auto !important;
+  box-shadow: 3px 5px 14px #00000026;
+}
+.navbar-title {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 29px;
+  width: 160px;
+  height: 39px;
+  /* UI Properties */
+  background-image: url("../../../public/logo.png");
+  background-size: 100% 100%;
+  opacity: 1;
+}
+.navbar-button {
+  position: absolute;
+  margin-top: 82px;
+  width: 208px;
+  height: 51px;
+  background: var(--theme-color) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+}
+.navbar-button-mobile{
+  position: absolute;
+  width: 208px;
+  height: 51px;
+  background: var(--theme-color) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+}
+.navbar-button-icon {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 41px;
+  width: 20px;
+  height: 18px;
+  opacity: 0.7;
+}
+.navbar-button-label {
+  margin-left: 70px;
+  margin-top: 12px;
+  color: #404040;
+  font-family: "Noto Sans JP Bold";
+}
+
+/* Calendar CSS Start*/
+.calendar-borad {
+  margin-top: 5vh;
+  width: 400px;
+  min-width: 400px;
+  /* height: 42vh; */
+  height:  auto;
+  padding-bottom: 10px;
+  /* UI Properties */
+  background: white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 14px #00000026;
+  border-radius: 15px;
+  opacity: 1;
+  padding-top: 20px;
+  padding-left: 30px;
+  min-height: 350px;
+}
+.min-width-400{
+  min-width: 400px;
+}
+.neworder-borad {
+  margin-top: 5vh;
+  width: 400px;
+  min-width: 400px;
+  height: 42vh;
+  /* UI Properties */
+  background: white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 14px #00000026;
+  border-radius: 15px;
+  opacity: 1;
+  padding-top: 20px;
+  padding-left: 3%;
+  min-height: 350px;
+
+}
+
+.new-order-title {
+  margin-top: 10px;
+  color: #404040;
+}
+.border-bottom-line {
+  border-width: 2px;
+  border-bottom-color: #404040;
+}
+.new-order-list {
+  width: 94%;
+  align-items: center;
+  height: 70%;
+  overflow-y: scroll;
+}
+.list-item {
+  width: 98%;
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #f8f8f8;
+  display: flex;
+}
+.list-item-margin-left-30 {
+  margin-left: 30px;
+}
+.list-item-margin-left-20 {
+  margin-left: 20px;
+}
+.align-center {
+  width: auto;
+  margin-top: 10px;
+}
+.color-404040 {
+  color: #404040;
+}
+.list-icon {
+  margin-top: 5px;
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+  background-size: cover !important;
+  background: url("../../../public/strawberry.png");
+}
+.align-right {
+  float: right;
+}
+.item-icon {
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+  background-size: 100% 100%;
+  background-image: url("../../../public/next.png");
+}
+.width-400 {
+  width: 400px;
+}
+.min-width-300 {
+  min-width: 300px;
+}
+.board-white {
+  background-color: white;
+}
+.border-radius-15 {
+  border-radius: 15px;
+}
+.box-shadow-gray {
+  box-shadow: 0px 5px 14px #00000026;
+}
+.margin-left-550 {
+  margin-left: 550px;
+}
+.margin-top-minu-940px {
+  margin-top: -950px;
+}
+.height-85per {
+  height: 85%;
+}
+.margin-left-30 {
+  margin-left: 30px;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.selected-reservation-date {
+  display: flex;
+  margin-left: 3.5%;
+  width: 90%;
+  height: 60px;
+  /* UI Properties */
+  border: 6px solid #edbf06;
+  border-radius: 15px;
+  align-items: center;
+  opacity: 1;
+}
+.selected-date-reserve-board {
+  margin-top: 40px;
+}
+.devider {
+  margin-left: 3.5%;
+  width: 90%;
+  height: 2px;
+  margin-top: 3px;
+  background-color: #d3d3d3;
+}
+.selected-reservation-list {
+  margin-left: 3.5%;
+  width: 93%;
+  height: 77%;
+  overflow-y: scroll;
+}
+.min-height-600{
+  min-height: 700px;
+}
+.pick-up-today-board {
+  width: 300px;
+}
+.pick-up-today {
+  width: 100%;
+  max-width: 450px;
+  min-width: 400px;
+  height: 100vh;
+  background-color: #f5e7af;
+}
+.pick-up-today-header {
+  width: 100%;
+  height: 90px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.margin-left-20 {
+  margin-left: 20px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.margin-top-40 {
+  margin-top: 40px;
+}
+.margin-top-15 {
+  margin-top: 15px;
+}
+.margin-left-per-20 {
+  margin-left: 20%;
+}
+.background-color-yellow {
+  background-color: #edbf06;
+}
+.width-46-height-46-center {
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+}
+.algin-text-center {
+  text-align: center;
+}
+
+.padding-center {
+  padding-right: auto;
+  padding-left: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.color-white {
+  color: white;
+}
+.pick-up-deveider {
+  background-color: white;
+  height: 1px;
+}
+.pick-up-today-list {
+  margin-left: 3%;
+  width: 97%;
+  height: 90%;
+  overflow-y: auto;
+}
+.exceededPickTime {
+  color: #dd2626;
+  text-align: left;
+}
+.width-100-per {
+  width: 100%;
+}
+.width-500 {
+  width: 400px;
+  min-width: 400px;
+}
+.height-100-per {
+  height: 100%;
+}
+.height-85-per {
+  height: 90vh;
+}
+.margin-top-5vh{
+  margin-top: 5vh;
+}
+.pickup-list-item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  align-content: space-around;
+}
+.sub-list-item {
+  width: 49%;
+  height: 70px;
+  margin: 2px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+.sub-list-logo {
+  width: 55px;
+  height: 50px;
+  background-image: url("../../../public/strawberry.png");
+  background-size: 100% 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sub-list-time-name{
+  width: 65%;
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.color-black{
+  color: black;
+}
+.color-red{
+  color: red;
+}

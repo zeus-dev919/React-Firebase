@@ -1,0 +1,149 @@
+
+:root {
+  --theme-color: #EDBF06;
+}
+
+.off-white-color {
+  background-color: '#F8F8F8';
+}
+
+@font-face {
+  font-family: "Noto Sans JP Medium";
+  src: url("../public/NotoSansJP-Medium.otf");
+
+  font-family: "Noto Sans JP Bold";
+  src: url("../public/NotoSansJP-Bold.otf");
+}
+
+.font-48-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 48px;
+  color: #404040;
+}
+
+.font-48-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 48px;
+  color: #404040;
+
+}
+.font-36-bold {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.font-36-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 36px;
+  font-weight: 'medium';
+
+}
+.font-32-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 32px;
+  color: #404040;
+
+}
+
+.font-32-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 32px;
+  color: #404040;
+
+}
+
+.font-24-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 24px;
+  color: #404040;
+
+}
+
+.font-24-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 24px;
+  color: #404040;
+
+}
+
+.font-20-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 20px;
+  color: #404040;
+
+
+}
+
+.font-20-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 20px;
+  color: #404040;
+
+}
+
+.font-18-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 18px;
+  color: #404040;
+
+}
+
+.font-18-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 18px;
+  color: #404040;
+
+}
+
+.font-16-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 16px;
+  color: #404040;
+
+}
+
+.font-16-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 16px;
+  color: #404040;
+
+}
+
+.font-14-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 14px;
+  color: #404040;
+}
+
+.font-14-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 14px;
+  color: #404040;
+
+}
+
+.font-12-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 12;
+  color: #404040;
+}
+
+.font-12-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 12px;
+  color: #404040;
+
+}
+
+.font-10-medium {
+  font-family: 'Noto Sans JP Medium';
+  font-size: 10px;
+  color: #404040;
+
+}
+
+.font-10-bold {
+  font-family: 'Noto Sans JP Bold';
+  font-size: 10px;
+  color: #404040;
+}

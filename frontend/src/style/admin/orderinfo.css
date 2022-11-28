@@ -1,0 +1,50 @@
+
+.order-container {
+  padding: 60px 90px 30px 40px;
+}
+
+.paper {
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    align-content: center;
+    background: white;
+  }
+  .table-img {
+    width: 65px;
+    height: 45px;
+  }
+  .label-color {
+    color: #747474 !important;
+  }
+
+  .success-btn {
+    background:#EDBF06;
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    border-color: #EDBF06;
+    cursor: pointer;
+
+  }
+  .change-btn {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #EDBF06;
+    width: 100%;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+
+  }
+  .delete-btn {
+    cursor: pointer;
+    text-align: center;
+  }
+  .modal {
+    padding: 50px 40px;
+    min-width: 400px;
+  }

@@ -1,0 +1,25 @@
+.my-page {
+    margin: 2% 15%;
+}
+.my-page-text {
+    margin-bottom: 9px;
+}
+.book-text {
+    padding: 18px 25px 0px;
+}
+.accordion-text {
+padding-left: 10px;
+}
+.book-detail {
+    padding: 20px 40px;
+}
+.right-paper {
+    padding: 0px 10px;
+}
+.right-text {
+    padding: 30px 36px;
+}
+.right-text:hover {
+    background-color:rgba(101,108,133,0.8);
+    cursor: pointer;
+}

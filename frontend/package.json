@@ -1,0 +1,79 @@
+{
+  "name": "cake-system",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/interaction": "^5.11.3",
+    "@fullcalendar/react": "^5.11.2",
+    "@fullcalendar/resource-timegrid": "^5.11.3",
+    "@fullcalendar/timegrid": "^5.11.3",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "@mui/x-date-pickers": "^5.0.3",
+    "@paypal/react-paypal-js": "^7.8.1",
+    "@react-oauth/google": "^0.2.8",
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-swipeable-views": "^0.13.1",
+    "@types/react-swipeable-views-utils": "^0.13.4",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.2",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.5",
+    "firebase": "^9.13.0",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-calendar": "^3.9.0",
+    "react-dom": "^18.2.0",
+    "react-gesture-responder": "^2.1.0",
+    "react-image-enlarger": "^1.1.0",
+    "react-redux": "^8.0.4",
+    "react-responsive": "^9.0.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./weborder/build/",
+  "devDependencies": {
+    "@types/react-calendar": "^3.5.3"
+  }
+}

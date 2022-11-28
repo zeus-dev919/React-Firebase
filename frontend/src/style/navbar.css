@@ -1,0 +1,134 @@
+
+.navbar-body {
+  min-width: 230px;
+  height: auto;
+  background-color: #292D33;
+  color: white;
+}
+
+.devider {
+  margin-top: 63px;
+  height: 1px;
+  width: 230px;
+  background-color: dimgrey;
+}
+
+.submenu-body {
+  width: 100%;
+  height: 170px;
+  border-bottom: 1px solid dimgrey;
+}
+
+.menuitem-body {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+}
+
+.menuitem-body:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.menuitem-body:active {
+  color: white;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.logo-size-position {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.item-label {
+  font-family: var(--theme-fontfamily);
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 17px;
+  width: 155px;
+  color: var(--menu-color);
+}
+
+.clicked-menu-item-body {
+  background-color: #1D2024;
+  color: white;
+}
+
+.margin-top-30px {
+  margin-top: 30px;
+}
+
+.border-up-line {
+  border-top: 1px solid dimgrey;
+}
+
+.triangle {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin-top: 11px;
+  margin-left: 220px;
+  border-top: 15px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 15px solid transparent;
+}
+
+.font-white {
+  color: white;
+}
+
+.faq-item__title-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  right: 0px;
+  top: 55%;
+  right: 0;
+  float: right;
+  transform: translateY(-50%);
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.sublist {
+  width: 100%;
+  height: auto;
+  background-color: #1D2024;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.sublistItem {
+  width: 100%;
+  height: 40px;
+  color: var(--menu-color);
+  font-size: 15px;
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+  font-family: var(--theme-fontfamily);
+}
+
+.sublistItem:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.sublistItem:active {
+  color: white;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
