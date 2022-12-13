@@ -18,13 +18,13 @@ module.exports = (request, response, next) => {
       request.user = decodedToken;
       return db
         .collection("customerAccount")
-        .where("userId", "==", request.user.uid)
-        .limit(1)
+        .where("userId", "!==", request.user.uid)
+        .limit(10)
         .get();
     })
     .then((data) => {
       request.user.name = data.docs[0].data().name;
-      return next();
+      if(request.user.name !== "") return next();
     })
     .catch((err) => {
       console.error("Error while verifying token", err);

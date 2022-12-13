@@ -13,10 +13,10 @@
   ],
   "emulators": {
     "functions": {
-      "port": 5001
+      "port": 5000
     },
     "firestore": {
-      "port": 8080
+      "port": 8000
     },
     "ui": {
       "enabled": true
@@ -25,6 +25,7 @@
   },
   "hosting": {
     "public": "build",
+    "utilized": true
     "ignore": [
       "firebase.json",
       "**/.*",
